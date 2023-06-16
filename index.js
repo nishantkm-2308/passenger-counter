@@ -9,4 +9,6 @@ function increment(){
 let entries = document.getElementById('save');
 function save(){
     entries.innerText += ' '+count + '-';
+    countDisplay.textContent = 0;
+    count = 0;
 }
